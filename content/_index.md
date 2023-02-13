@@ -10,7 +10,7 @@ weight: 1
 
 ### Welcome
 
-Welcome to the **AWS S3 Bucket Malware Scanning with Trend Micro** hands-on workshop.
+Welcome to the **ccelerating Secure Data Transfer with IBM Aspera and Trend Micro Cloud One** hands-on workshop.
 
 In this workshop users will integrate AWS S3 with IBM Apsera and Cloud One FIle Storage Security to secure your data migration journey. Participants will get hands-on experience in deploying, configuring, and transferring data using IBM Aspera.
 
@@ -57,6 +57,7 @@ For any additional help please reach out to:
 
 - Justin Perkins - (justin_perkins@trendmicro.com)
 - Fernando Cardoso - (fernando_cardoso@trendmicro.com)
+- Michael Mugo - (michael_mugo@trendmicro.com)
 
 <p>
 <a  href="mailto:fernando_cardoso@trendmicro.com;justin_perkins@trendmicro.com?subject=Feedback Accelerating Secure Data Transfer with IBM Aspera and Trend Micro Cloud One"  target="_blank" rel="noopener noreferrer"  class="btn btn-default">  
