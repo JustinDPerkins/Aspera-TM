@@ -15,11 +15,11 @@ pre: "<b>4.2 </b>"
 
 **1.** **Find the 'ScanResultTopic' SNS topic ARN**
 
-- In the AWS console, go to **Services > CloudFormation** > your all-in-one stack > **Resources** > your storage stack > **Resources**.
+- In the AWS console, go to **Services > CloudFormation > your all-in-one stack > Outputs**.
 - Scroll down to locate the  **ScanResultTopic** Logical ID.
 - Copy the **ScanResultTopic** ARN to a temporary location. It will look like this: `arn:aws:sns:us-east-1:123445678901:FileStorageSecurity-All-In-One-Stack-StorageStack-1IDPU1PZ2W5RN-ScanResultTopic-N8DD2JH1GRKF`
 
-![Diagram](/images/slack_2.png)
+![Diagram](/images/aspera/outputs.jpg)
 
 ---
 

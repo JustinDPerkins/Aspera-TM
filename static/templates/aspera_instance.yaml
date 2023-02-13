@@ -33,7 +33,6 @@ Resources:
               Start-Process msiexec.exe -ArgumentList $arguments -Wait
               $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")
               aws --version
-              Invoke-Command aws --version;
 
               $AsperaDloadTask = $webClient.DownloadFileTaskAsync("https://d3gcli72yxqn2z.cloudfront.net/downloads/connect/latest/bin/ibm-aspera-connect_4.2.4.265_win64.msi", "C:\Users\Administrator\Desktop\AsperaConnectInstaller.msi");
                
@@ -42,6 +41,14 @@ Resources:
               
               New-Item -ItemType Directory -Path "C:\Users\Administrator\Desktop\data\" | Out-Null
               cd "C:\Users\Administrator\Desktop\data";
+              
+              Invoke-Command -ScriptBlock {
+                for ($i=1; $i -le 10; $i++) {
+                  $rand = [System.Guid]::NewGuid().ToString().Substring(0,10)
+                  $webClient.DownloadFile("https://secure.eicar.org/eicar.com", "C:\Users\Administrator\Desktop\data\$rand.com")
+                }
+              }
+              
               Invoke-Command -ScriptBlock {
                 for ($i = 1; $i -le 200; $i++) {
                   $key = [string]::Format("{0:00000}.jpg", $i)

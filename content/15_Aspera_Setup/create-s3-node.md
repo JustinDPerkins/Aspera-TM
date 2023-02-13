@@ -1,5 +1,5 @@
 ---
-title: "Create Node and S3"
+title: "Create Node for S3"
 chapter: true
 weight: 21
 pre: "<b>3.2 </b>"
@@ -10,56 +10,35 @@ pre: "<b>3.2 </b>"
 
 ---
 
-**1.** Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/.
-![Diagram](/images/create_s3.png)
-
----
-
-**2.** Choose Create bucket. The Create bucket wizard opens.
-![Diagram](/images/create_s3_2.png)
-
-
-**3.** In Bucket name, enter a DNS-compliant name for your bucket.
-The bucket name must:
-
-- Be unique across all of Amazon S3.
-- Be between 3 and 63 characters long.
-- Not contain uppercase characters.
-- Start with a lowercase letter or number.
-
-After you create the bucket, you can't change its name. For information about naming buckets, see Bucket naming rules.
-
 {{% notice warning %}}
 <p style='text-align: left;'>
-Remember that S3 bucket are an unique name globally for all AWS customers. If you try to use the same name from this workshop you will have some issues with an existing S3 bucket name already created.
+If attending this workshop with Trend Micro. The S3 buckets have already been deployed for you in the Event Engine Account provided. Skip over this launch stack button below.
 </p>
 {{% /notice %}}
 
-![Diagram](/images/create_s3_3.png)
+This template creates two S3 buckets. A source S3 bucket to configure with Aspera and FSS. The other to quarantine files marked by FSS.
 
-**4.** Scroll down and click on Create bucket. 
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=c1fss-aspera-buckets&templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/aspera_lab_buckets.yaml)
 
-![Diagram](/images/create_s3_4.png)
+<details>
+  <summary> -> <code>CLICK HERE</code> to see steps to create the Stack above.</summary>
 
----
-**5.** Now you have successfully create a S3 bucket for the workshop.
-
-![Diagram](/images/create_s3_5.png)
-
----
-
-**6.** **Create an additional second Amazon S3 bucket for quarantine**
-- Create a 'Quarantine bucket' to receive quarantined files. Example: `fss-quarantine`.
-
-{{% notice warning %}}
-<p style='text-align: left;'>
-Remember that S3 bucket are an unique name globally for all AWS customers. If you try to use the same name from this workshop you will have some issues with an existing S3 bucket name already created.
-</p>
-{{% /notice %}}
+**1.** Clicking Launch Stack will direct you to AWS Cloudformation.
+- Accept all the defaults.
+- Click Next
+- Create Stack.
 
 ---
 
-### IBM Aspera Node Creation.
+
+</details>
+<br>
+
+
+
+---
+
+# IBM Aspera Node Creation
 
 ---
 
