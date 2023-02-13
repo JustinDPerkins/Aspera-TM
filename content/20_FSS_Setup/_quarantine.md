@@ -7,19 +7,13 @@ pre: "<b>4.2 </b>"
 
 ### Enhance Security workflow with Quarantine functionality.
 
-**1.** **Create additional Amazon S3 bucket for quarantine**
-- Create a 'Quarantine bucket' to receive quarantined files. Example: `fss-quarantine`.
+---
 
-{{% notice warning %}}
-<p style='text-align: left;'>
-Remember that S3 bucket are an unique name globally for all AWS customers. If you try to use the same name from this workshop you will have some issues with an existing S3 bucket name already created.
-</p>
-{{% /notice %}}
+![Diagram](/images/aspera/arch-aws-flow.png)
 
 ---
 
-
-**2.** **Find the 'ScanResultTopic' SNS topic ARN**
+**1.** **Find the 'ScanResultTopic' SNS topic ARN**
 
 - In the AWS console, go to **Services > CloudFormation** > your all-in-one stack > **Resources** > your storage stack > **Resources**.
 - Scroll down to locate the  **ScanResultTopic** Logical ID.
@@ -37,7 +31,7 @@ In this case, let's use the Serverless Application Repository
 2. Fill in the parameters:
     * ScanResultTopic
     * ScanningBucketName
-    * PromoteBucketName
+    * PromoteBucketName - **Ignore**
     * QuarantineBucketName
     * Optionally, you can customize the name of the Cloud Formation stack that will be created
 3. Check the `I acknowledge that this app creates custom IAM roles.` checkbox.

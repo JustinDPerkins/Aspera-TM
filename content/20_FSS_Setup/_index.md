@@ -86,7 +86,5 @@ All the new objects that will be uploaded to your bucket that you define to be s
 
 ---
 
-Here is a video with the steps-by-steps on how to deploy All-in-One stack for File Storage Security:
-{{< youtube id="_w1_k5W3tEQ" title="Deploying the File Storage Security All In One Stack" >}}
 
 

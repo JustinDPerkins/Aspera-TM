@@ -1,11 +1,44 @@
 ---
-title: "Visibility with CloudWatch"
+title: "Validate and Inspect"
 chapter: false
 weight: 32
 pre: "<b>4.4 </b>"
 ---
 
+## Validate an Object
+
+---
+
+**1.** After successful upload navigate to **S3** and find your S3 bucket that you defined to be scanned by File Storage Security.
+
+---
+
+**2.** Examine the tags applied from the scan results. 
+
+- Scroll to the <b>Tags</b> section, you will see the details like the example below:
+
+
+![Diagram](/images/tags_updated.png)
+
+Look for the following tags:
+``` bash
+fss-scan-date: "date_and_time"
+fss-scan-result: "malicious or no issues found"
+fss-scanned: "true"
+```
+The tags indicate that File Storage Security scanned the file and tagged it correctly as malware. You have now tested your File Storage Security deployment :+1:
+
+You could also check in the Cloud One - File Storage Security dashboard to look for how many files have been scanned and recognized as malicious. 
+
+![Diagram](/images/s3_4.png)
+
+---
+
+
 ### Monitoring your Scans with CloudWatch
+
+<details>
+  <summary> -> <code>CLICK HERE</code> to see how to check in CloudWatch.</summary>
 
 File Storage Security logs are in AWS CloudWatch Logs. These logs contain a bit more information than what's available in the ```fss-* tags```.
 
@@ -113,6 +146,9 @@ If you were expecting results and don't see them, try setting a broader time or 
 ```
 
 **You did it :tada:!**
+
+</details>
+<br>
 
 ----
 

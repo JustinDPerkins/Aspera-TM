@@ -7,16 +7,16 @@ pre: "<b>6. </b>"
 
 # Clean your Environment
 
-To clean your environment, go to your CloudFormation stack called ```All-in-one-TM-FileStorageSecurity``` and click in delete, this will automatically delete the Scanner and Storage stack all together:
+1. To clean your environment, go to your CloudFormation stack called ```All-in-one-TM-FileStorageSecurity``` and click in delete, this will automatically delete the Scanner and Storage stack all together:
 
-![Diagram](/images/cf_delete.png)
+2. After the CloudFormation finish the deletion process (Usually takes up to 5 minutes), you can go back to your Cloud One File Storage Security console and select your stack and also delete the stack:
 
-![Diagram](/images/cf_deletestack.png)
+3. Delete all objects out of both s3 buckets.
 
-After the CloudFormation finish the deletion process (Usually takes up to 5 minutes), you can go back to your Cloud One File Storage Security console and select your stack and also delete the stack:
+4. Delete both S3 buckets.
 
-![Diagram](/images/fss_delete.png)
+5. Delete the ```Serverless-Promote-Quarantine-Plugin``` stack.
 
-![Diagram](/images/fss_deletestack.png)
+6. Delete the ```aspera-client-template``` stack.
 
-Done:tada:! You have susscessfully cleanup your environment
+Done:tada:! You have successfully cleaned up your environment

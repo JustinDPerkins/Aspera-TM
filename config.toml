@@ -44,30 +44,21 @@ enableEmoji = "true"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[[menu.shortcuts]] 
-name = "<i class='fas fa-graduation-cap'></i> Modernization Workshops"
-url = "https://awsworkshop.io"
-weight = 10
-
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools'></i> AWS Builders Library"
-url = "https://aws.amazon.com/builders-library/"
-weight = 11
-
-[[menu.shortcuts]]
-name = "<i class='far fa-lightbulb'></i> Modernization with AWS"
-url = "https://aws.amazon.com/blogs/modernizing-with-aws/"
+name = "<i class='far fa-lightbulb'></i> IBM Aspera Trial"
+url = "https://www.ibm.com/account/reg/us-en/signup?formid=urx-30538"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-chalkboard-teacher'></i> Trend Micro on AWS Marketplace"
+name = "<i class='fas fa-chalkboard-teacher'></i> Trend Micro - AWS Marketplace"
 url = "https://aws.amazon.com/marketplace/pp/B01LXMNGHB/"
 weight = 21
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-chalkboard-teacher'></i> Sign-Up for Trend Micro Trial Account"
+name = "<i class='fas fa-chalkboard-teacher'></i>Trend Micro - Portal Trial"
 url = "https://cloudone.trendmicro.com/SignUp.screen"
 weight = 22
+
 
 [markup]
   defaultMarkdownHandler = "goldmark"

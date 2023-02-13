@@ -48,6 +48,17 @@ Remember that S3 bucket are an unique name globally for all AWS customers. If yo
 
 ---
 
+**6.** **Create an additional second Amazon S3 bucket for quarantine**
+- Create a 'Quarantine bucket' to receive quarantined files. Example: `fss-quarantine`.
+
+{{% notice warning %}}
+<p style='text-align: left;'>
+Remember that S3 bucket are an unique name globally for all AWS customers. If you try to use the same name from this workshop you will have some issues with an existing S3 bucket name already created.
+</p>
+{{% /notice %}}
+
+---
+
 ### IBM Aspera Node Creation.
 
 ---
@@ -167,6 +178,12 @@ Remember that S3 bucket are an unique name globally for all AWS customers. If yo
 - Click **Create**.
 
 ![Aspera](/images/aspera/node10.jpg)
+
+{{% notice warning %}}
+<p style='text-align: left;'>
+If the connection fails, refresh the webpage. Repeat the steps above and updating the IAM trust policy in AWS created before with the latest provided.
+</p>
+{{% /notice %}}
 
 ---
 
