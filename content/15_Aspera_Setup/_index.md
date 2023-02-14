@@ -36,15 +36,14 @@ pre: "<b>3. </b>"
  - Check the box for IAM acknowledgement.
  - Click **Submit**.
 
-  {{% notice info %}}
+![DEPLOY](/images/aspera/cft.jpg) 
+![DEPLOY](/images/aspera/cft2.jpg)
+
+{{% notice info %}}
 <p style='text-align: left;'>
 A Key Pair is required before continuing this CloudFormation deployment. If you need help creating a Key Pair -> <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair" target="_top">Create a key pair</a>
 </p>
 {{% /notice %}}
-
-![DEPLOY](/images/aspera/cft.jpg) 
-![DEPLOY](/images/aspera/cft2.jpg)
-
 
 ---
 

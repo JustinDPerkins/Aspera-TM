@@ -1,8 +1,8 @@
 ---
 title: "Validate and Inspect"
 chapter: false
-weight: 32
-pre: "<b>4.4 </b>"
+weight: 52
+pre: "<b>5.2 </b>"
 ---
 
 ## Validate an Object

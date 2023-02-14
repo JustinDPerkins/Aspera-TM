@@ -7,7 +7,7 @@ pre: "<b>7. </b>"
 
 # Conclusions and Results
 
-In this workshop, you learned how you can add data security to IBM Apsera on Cloud storage accounts. Seamless integration using IBM Aspera for sending and sharing capabilities and Trend Micro Cloud One – File Storage Security in the AWS cloud. 
+In this workshop, you learned how you can add data security to IBM Aspera on Cloud storage accounts. Seamless integration using IBM Aspera for sending and sharing capabilities and Trend Micro Cloud One – File Storage Security in the AWS cloud. 
 
 ---
 

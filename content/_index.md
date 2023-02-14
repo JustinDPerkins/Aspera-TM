@@ -10,9 +10,9 @@ weight: 1
 
 ### Welcome
 
-Welcome to the **ccelerating Secure Data Transfer with IBM Aspera and Trend Micro Cloud One** hands-on workshop.
+Welcome to the **Accelerating Secure Data Transfer with IBM Aspera and Trend Micro Cloud One** hands-on workshop.
 
-In this workshop users will integrate AWS S3 with IBM Apsera and Cloud One FIle Storage Security to secure your data migration journey. Participants will get hands-on experience in deploying, configuring, and transferring data using IBM Aspera.
+In this workshop users will integrate AWS S3 with IBM Aspera and Cloud One FIle Storage Security to secure your data migration journey. Participants will get hands-on experience in deploying, configuring, and transferring data using IBM Aspera.
 
 
 Learn by implementing Trend Micro - Cloud One File Security for data migration to facilitate Anti-Malware scanning of S3 objects.

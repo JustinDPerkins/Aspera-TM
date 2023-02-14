@@ -10,6 +10,10 @@ pre: "<b>4. </b>"
 
 ---
 
+![Diagram](/images/aspera/MicrosoftTeams-image.png)
+
+---
+
 ### Cloud One - File Storage Security Deployment
 
 **1.** Login to [Cloud One platform](https://cloudone.trendmicro.com), it will request the login information for the Cloud One, in case you don't have it, check the requirements page that has all the details that you will need to create your account.  
