@@ -26,11 +26,11 @@ The workshop is divided into the sections listed below. Plan around two hours to
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 1. Introduction - (10 minutes)</b> 
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 2. Cloud One and Aspera Account Setup (20 minutes)</b>  
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 2. Cloud One and Aspera Account Setup (15 minutes)</b>  
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 3. Deploy Cloud One File Storage Security (20 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 3. Deploy Cloud One File Storage Security (30 minutes)</b>
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 4. Transfer and Validate (25 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 4. Transfer and Validate (15 minutes)</b>
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 5. Cleanup (10 minutes)</b>
 

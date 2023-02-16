@@ -7,7 +7,7 @@ pre: "<b>1.3 </b>"
 
 ### File Storage Security
 
-File Storage Security is part of the Trend Micro Cloud One™ security service platform, helping your organization to build and run applications securely by offering controls that work across your existing infrastructure or modern code streams, development toolchains, and multiplatform requirements. File Storage Security helps ensure your Amazon S3 buckets are free from malware by deploying cloud-native security that can be integrated into your custom Amazon S3 workflows.
+ Trend Micro Cloud One™ - File Storage Security helps ensure your Amazon S3 buckets are free from malware by deploying cloud-native security that can be integrated into your custom Amazon S3 workflows.
 
 File Storage Security is backed by Trend Micro Research, which continuously monitors and collects threat data from across the globe by employing advanced detection analytics to immediately block attacks before they can harm your organization.
 
@@ -15,14 +15,14 @@ File Storage Security is backed by Trend Micro Research, which continuously moni
 
 ### Understanding How Trend Micro Can Help Secure Your Object Storage
 
-There are two main ways to use File Storage Security in your AWS Infrastructure:
+There are a few main ways to use File Storage Security in AWS:
 
-- <b>File Upload Scan</b> -> Any cloud-native application that uses the power of the cloud to provide features integrated with Amazon S3 buckets could be exposed to malware. File Storage Security allows customers to integrate scan capabilities directly to their AWS accounts, so all of the files you receive in your Amazon S3 buckets from external sources can be scanned for malware before your application can consume the data.
+- <b>File Upload Scan</b> -> Helps security teams to scan files when a user or program uploads a file to S3.
 
-- <b>Automated Workflow</b> -> Development teams leverage event-driven designs with Amazon S3 to automate the processing of data uploaded to a bucket. File Storage Security was designed with this architecture in mind allowing development teams to seamlessly integrate file scanning into their automated workflow.
+- <b>Scan on getObject request</b> -> Helps security teams to scan files when client makes GET request and blocks it if the file is malicious.
 
-- <b>S3 bucket Full Scan or Scheduled Scan</b> -> Helps security teams to scan all the objects inside AWS S3 buckets against malicious contents.
-[GitHub link for Plugin](https://github.com/trendmicro/cloudone-filestorage-plugins/tree/master/scan-triggers/aws-python-bucket-full-and-scheduled-scan)
+- <b>Automated Workflows</b> -> Development teams leverage event-driven designs with Amazon S3 to automate the processing of data uploaded to a bucket. File Storage Security was designed with this architecture in mind allowing development teams to seamlessly integrate file scanning into their automated workflow.
+- [File Storage Security GitHub link for Plugins](https://github.com/trendmicro/cloudone-filestorage-plugins/)
 
 ----
 

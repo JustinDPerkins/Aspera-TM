@@ -28,14 +28,11 @@ No matter where you are at in your cloud journey, Trend Micro Cloud One has you 
 
 We recognize that there are different drivers behind your constantly evolving cloud security priorities. We also understand all of the continuous work it takes to secure your complex and fast-paced multi-cloud environment—so let’s simplify it.
 
-- <b>Cloud Migration</b>: The transition to the cloud isn’t as simple as clicking a button, and having a hybrid and multi-cloud strategy is the norm. That’s why Trend Micro built the Trend Micro Cloud One platform with the ability to secure physical, virtual, and multi-cloud environments.
+- <b>Cloud Migration</b>: Automate the discovery and protection of public, private, and virtual cloud environments while protecting the network layer. This provides flexibility and simplicity in securing your cloud throughout the migration and expansion process. Gain increased visibility and consistent security throughout your hybrid cloud environments, with the most security controls and integrations within your existing toolsets.
 
-- <b>Cloud-Native Application</b>: Working hard to deliver fast and iterate often, you are leveraging code in new ways and from different sources, such as infrastructure as code, open source, and public code repositories, which can introduce additional risk. Making matters more complicated, you have adopted new cloud services and processes to help you meet your objectives. You need security that supports this dynamic, complex approach without slowing you down. Trend Micro Cloud One does just that, by providing solutions for DevOps, cloud storage, cloud workloads, containers, and serverless.
+- <b>Cloud-Native Application</b>: With CI/CD, containers, serverless, and other modern development practices and technologies, you need cloud-native application security with connected protection throughout your application’s lifecycle and assurance that your cloud services meet security best practices while letting your developers develop. Build and run applications your way with integrated security – understand and address application risk across development toolchains, CI/CD pipelines, and production environments.
 
-- <b>Cloud Operational Excellence</b>: Organization are adopting a cloud center of excellence model, with the goal of creating repeatable, consistent, secure, and compliant infrastructures that can be leveraged throughout the organization. Trend Micro Cloud one is optimized to be cloud efficient and will help you meet governance, compliance, and assurance requirements quickly.
-
-{{< youtube id="0Llhk8hka20" title="Infrastructure as Code Explained" >}}
-
+- <b>Cloud Operational Excellence</b>: Automatically evaluate how well your cloud services align to cloud configuration best practices and industry compliance standards. With Trend Cloud One, you can embrace a DevSecOps culture in your organization by empowering your team to build better architecture and applications in the cloud while having the necessary guardrails to grow and scale your business safely and securely.
 ----
 
 
