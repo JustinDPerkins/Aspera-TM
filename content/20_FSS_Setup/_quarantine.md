@@ -30,9 +30,9 @@ In this case, let's use the Serverless Application Repository
 1. Visit [the app's page on the AWS Lambda Console](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/create/app?applicationId=arn:aws:serverlessrepo:us-east-1:415485722356:applications/cloudone-filestorage-plugin-action-promote-or-quarantine).
 2. Fill in the parameters:
     * ScanResultTopic
-    * ScanningBucketName
+    * ScanningBucketName - **aspera-transfer-01234567890**
     * PromoteBucketName - **Ignore**
-    * QuarantineBucketName
+    * QuarantineBucketName- **quarantine-01234567890**
     * Optionally, you can customize the name of the Cloud Formation stack that will be created
 3. Check the `I acknowledge that this app creates custom IAM roles.` checkbox.
 4. Click `Deploy`.

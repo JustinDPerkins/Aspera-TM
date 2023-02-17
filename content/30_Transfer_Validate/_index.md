@@ -63,7 +63,8 @@ pre: "<b>5. </b>"
 ## Check the S3 bucket for new objects.
 
 - Ensure that the transfer has completed.
-![DEPLOY](/images/aspera/bucket.jpg)  
+![DEPLOY](/images/aspera/bucket.jpg)
+![DEPLOY](/images/aspera/files.png) 
 
 
 ---

@@ -6,51 +6,6 @@ pre: "<b>3. </b>"
 ---
 
 
-# Client Setup
-
----
- **1** Create an EC2 Keypair.
-
-
-<details>
-  <summary> -> <code>CLICK HERE</code> to see how to create a key pair</summary>
-
-**AWS Console -> EC2 -> Key Pairs -> Create key pair**
-
-![DEPLOY](/images/aspera/kp.jpg) 
-![DEPLOY](/images/aspera/kp2.jpg)
-
-</details>
-<br>
- 
- ---
- 
- **2.** Launch the CloudFormation template in a new tab. The template deploys the IBM Aspera Connect client package and mock data to use for testing. 
-
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=c1fss-aspera-workshop&templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/aspera_instance.yaml)
-
- - Click the **Launch Stack** button.
- - Select your **KeyPair** created in the previous step.
- - Click **Next**.
- - Click **Next**.
- - Check the box for IAM acknowledgement.
- - Click **Submit**.
-
-![DEPLOY](/images/aspera/cft.jpg) 
-![DEPLOY](/images/aspera/cft2.jpg)
-
-{{% notice info %}}
-<p style='text-align: left;'>
-A Key Pair is required before continuing this CloudFormation deployment. If you need help creating a Key Pair -> <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair" target="_top">Create a key pair</a>
-</p>
-{{% /notice %}}
-
----
-
-**3. This machine will be used later.**
-
----
-
 # IBM Aspera
 
 ---
@@ -110,10 +65,13 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 ---
 
 **1.** Launch IBM Aspera on Cloud™.
-
+- Click **< My IBM** 
 - Click **Launch** to be directed to IBM Aspera on Cloud.
 
+![Aspera](/images/aspera/acc-back.jpg)
 ![Aspera](/images/aspera/account.jpg)
+
+---
 
 **2.** Authenticate to IBM Aspera on Cloud™.
 

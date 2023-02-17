@@ -9,10 +9,8 @@ pre: "<b>3.3 </b>"
 
 **1.** Navigate to EC2 and establish an RDP connection.
 
-<details>
-  <summary> -> <code>CLICK HERE</code> to see how to connect to the provided Aspera Client Instance</summary>
 
-**AWS Console -> EC2 -> Instances -> Select the EC2 Aspera instance**
+- **AWS Console -> EC2 -> Instances -> Select the EC2 Aspera instance**
 - Click **Connect**.
 - Select the **RDP tab**.
 - Download the RDP client.
@@ -22,8 +20,6 @@ pre: "<b>3.3 </b>"
 ![DEPLOY](/images/aspera/rdp2.jpg)
 ![DEPLOY](/images/aspera/rdp3.jpg)
 
-</details>
-<br>
 
 ---
 

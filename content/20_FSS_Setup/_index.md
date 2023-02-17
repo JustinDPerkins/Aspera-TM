@@ -42,7 +42,7 @@ pre: "<b>4. </b>"
 
 ---
 
-**6.** Select your preferred AWS region that best suit for you ([AWS regions supported](/10_requirements.html)) and click on ```Launch Stack```, this will redirect you to your AWS account in the region that you choose to deploy the stack. Make sure that you're logged in and have the correct permissions, which you can check the details of the permissions required in the Requirements section.
+**6.** Select the **us-east-1** AWS region and click on ```Launch Stack```, this will redirect you to your AWS account in the region that you choose to deploy the stack. Make sure that you're logged in and have the correct permissions, which you can check the details of the permissions required in the Requirements section.
 
 {{% notice tip %}}
 Try to make sure the Cloud One console tab is in the same Window from your browser so the Launch Stack will automatically use the AWS session that you have open already. 
@@ -58,11 +58,13 @@ You can validate the Cloud Formation Template by clicking in ```Review Stack```,
 
 ---
 
-**7.** In the CloudFormation page the <b>only required parameter</b> here is the <b>name of bucket</b> that you choose to be scanned, just add it in the configuration **(S3BucketToScan)**. Please use the name from the S3 bucket that you have created earlier in this workshop or use one existing S3 bucket that you prefer.
+**7.** In the CloudFormation page the <b>only required parameter</b> here is the <b>name of bucket</b> that you choose to be scanned.
 
-It also supports different parameters to customize your installation, like Resource prefixes and optional KMS integration, for more details about these configurations check our <a href="https://cloudone.trendmicro.com/docs/file-storage-security/gs-deploy-all-in-one-stack/">Documentation</a>.
+- Please use the name from the S3 bucket that was created earlier. The bucket starting with **aspera-transfer**.
 
-After adding the bucket name you will need to acknowledge and click on <b>"Create Stack"</b>
+- It also supports different parameters to customize your installation, like Resource prefixes and optional KMS integration, for more details about these configurations check our <a href="https://cloudone.trendmicro.com/docs/file-storage-security/gs-deploy-all-in-one-stack/">Documentation</a>.
+
+- After adding the bucket name you will need to acknowledge and click on <b>"Create Stack"</b>
 
 ![Diagram](/images/fss/cfdeploy.png)
 
