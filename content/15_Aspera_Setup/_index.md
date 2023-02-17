@@ -25,7 +25,7 @@ pre: "<b>3. </b>"
  
  ---
  
- **2.** Launch the cloudformation template in a new tab. The template deploys the IBM Aspera Connect client package and mock data to use for testing. 
+ **2.** Launch the CloudFormation template in a new tab. The template deploys the IBM Aspera Connect client package and mock data to use for testing. 
 
 [![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=c1fss-aspera-workshop&templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/aspera_instance.yaml)
 
@@ -47,7 +47,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 
 ---
 
-**3. This machine will be used later on.**
+**3. This machine will be used later.**
 
 ---
 
@@ -57,7 +57,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 
 **1.** Sign up for a free IBM Aspera on Cloud trial. Click [here to register for a free trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-30538).
 
-- Enter your Account informations and create a password.
+- Enter your Account information and create a password.
 - Click **Next**.
 - Enter your additional details. Click **Next**.
 
@@ -68,7 +68,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 
 **2.** Verify email for Aspera on Cloud.
 
-- Check the inbox of the email address provided in steps 1.
+- Check the inbox of the email address provided in step 1.
 - Copy the confirmation code.
 
 ![Aspera](/images/aspera/setup3.jpg)
@@ -76,7 +76,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 ---
 
 **3.** Start free Aspera on Cloud trial.
-- Provide the confirmation code back in the Aspera borwser.
+- Provide the confirmation code back in the Aspera browser.
 - Click on **Start your free trial**.
 
 ![Aspera](/images/aspera/setup4.jpg)
@@ -84,7 +84,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 ---
 
 
-## Set Up-MFA
+## Set Up MFA
 ---
 
 **1.** Choose the verification method to add MFA.
@@ -97,7 +97,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 
 **2.** In an application such as Duo Mobile configure MFA with IBM Aspera.
 
-- Test and Verify your authenitcator has been set up.
+- Test and Verify your authenticator has been set up.
 - Click **Done**.
 
 ![Aspera](/images/aspera/mfa3.jpg)

@@ -27,7 +27,7 @@ pre: "<b>3.3 </b>"
 
 ---
 
-**2.** In the RDP session. Use Firefox to sign into your IBM Aspera Account.
+**2.** In the RDP session, use Firefox to sign into your IBM Aspera Account.
 
 - IBM Aspera sign in url: ```https://myibm.ibm.com/?lnk=mmi```
 
@@ -108,3 +108,5 @@ pre: "<b>3.3 </b>"
 
 
 ---
+
+Let's start the File Storage Security deployment now. :laptop::cloud::rocket:

@@ -1,5 +1,5 @@
 ---
-title: "Deploy Cloud One File Storage Security"
+title: "Deploy File Storage Security"
 chapter: true
 weight: 30
 pre: "<b>4. </b>"
@@ -16,8 +16,7 @@ pre: "<b>4. </b>"
 
 ### Cloud One - File Storage Security Deployment
 
-**1.** Login to [Cloud One platform](https://cloudone.trendmicro.com), it will request the login information for the Cloud One, in case you don't have it, check the requirements page that has all the details that you will need to create your account.  
-
+**1.** Login to [Cloud One platform](https://cloudone.trendmicro.com). If you don’t have your login information, check the requirements page that has all the details that you will need to create your account.
 ![Diagram](/images/login.png)
 
 ---
@@ -43,10 +42,10 @@ pre: "<b>4. </b>"
 
 ---
 
-**6.** Select the AWS region that best suit for you ([AWS regions supported](/10_requirements.html)) and click on ```Launch Stack```, this will redirect you to your AWS account in the region that you choose to deploy the stack. Make sure that you're logged in and has the correct permissions, you can check the details of the permissions required in the Requirements section.
+**6.** Select your preferred AWS region that best suit for you ([AWS regions supported](/10_requirements.html)) and click on ```Launch Stack```, this will redirect you to your AWS account in the region that you choose to deploy the stack. Make sure that you're logged in and have the correct permissions, which you can check the details of the permissions required in the Requirements section.
 
 {{% notice tip %}}
-Try to make sure the Cloud One console tab is in the same Window from your browser this way the Launch Stack will automatically use the AWS session that you have open already. 
+Try to make sure the Cloud One console tab is in the same Window from your browser so the Launch Stack will automatically use the AWS session that you have open already. 
 {{% /notice %}}
 
 You can validate the Cloud Formation Template by clicking in ```Review Stack```, to make it easier, you can also verify the Cloud Formation Template by clicking the buttons below:
@@ -59,9 +58,9 @@ You can validate the Cloud Formation Template by clicking in ```Review Stack```,
 
 ---
 
-**7.** In the CloudFormation page the <b>only required parameter</b> here is the <b>name of bucket</b> that you choose to be scanned, just add it in the configuration **(S3BucketToScan)**. In our case please use the name from the S3 bucket that you have created early in this workshop or use one existing S3 bucket that you prefer.
+**7.** In the CloudFormation page the <b>only required parameter</b> here is the <b>name of bucket</b> that you choose to be scanned, just add it in the configuration **(S3BucketToScan)**. Please use the name from the S3 bucket that you have created earlier in this workshop or use one existing S3 bucket that you prefer.
 
-It also supports differents parameters to customize your installation, like Resource prefixes and optional KMS integration, for more details about these configurations check our <a href="https://cloudone.trendmicro.com/docs/file-storage-security/gs-deploy-all-in-one-stack/">Documentation</a>.
+It also supports different parameters to customize your installation, like Resource prefixes and optional KMS integration, for more details about these configurations check our <a href="https://cloudone.trendmicro.com/docs/file-storage-security/gs-deploy-all-in-one-stack/">Documentation</a>.
 
 After adding the bucket name you will need to acknowledge and click on <b>"Create Stack"</b>
 
@@ -85,7 +84,7 @@ Go to CloudFormation > Stacks > your all-in-one stack > Outputs tab and copy the
 
 You have now completed the deployment of the All-in-One stack :tada:, so let's test our deployment :laptop:
 
-All the new objects that will be uploaded to your bucket that you define to be scan, now will be automatically scanning against malware and tagged as "malicious" or "no issues found".
+All new objects uploaded to your bucket that you define to be scanned will now be automatically scanning against malware and tagged as “malicious” or “no issues found”.
 
 
 ---

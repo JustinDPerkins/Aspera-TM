@@ -1,5 +1,5 @@
 ---
-title: "Cloud One -  File Storage Security"
+title: "File Storage Security"
 chapter: false
 weight: 7
 pre: "<b>1.3 </b>"
@@ -7,7 +7,7 @@ pre: "<b>1.3 </b>"
 
 ### File Storage Security
 
- Trend Micro Cloud One™ - File Storage Security helps ensure your Amazon S3 buckets are free from malware by deploying cloud-native security that can be integrated into your custom Amazon S3 workflows.
+ File Storage Security is part of the Trend Cloud One security service platform, helping your organization to build and run applications securely by offering controls that work across your existing infrastructure or modern code streams, development toolchains, and multiplatform requirements. File Storage Security helps ensure your Amazon S3 buckets are free from malware by deploying cloud-native security that can be integrated into your custom Amazon S3 workflows.
 
 File Storage Security is backed by Trend Micro Research, which continuously monitors and collects threat data from across the globe by employing advanced detection analytics to immediately block attacks before they can harm your organization.
 
@@ -36,13 +36,13 @@ or an efficient single-bucket architecture.
 ![Diagram](/images/fss.png)
 
 
-File Storage Security’s architecture was built to be simple to understand and monitor all of the buckets. As soon as a new file is uploaded to the bucket, this will generate a SQS message inside your AWS account that will trigger an AWS Lambda function. The function will execute the scan and tag the file as malicious or clean, depending on the scan result. It is also possible to connect plugins to perform additional actions, for example, as soon the file is tagged as malicious, the plugin moves the tagged file to a quarantine bucket.
+File Storage Security’s architecture was built to be simple to understand and monitor all of the buckets. As soon as a new file is uploaded to the bucket, this will generate a SQS message inside your AWS account that will trigger an AWS Lambda function. The function will execute the scan and tag the file as malicious or clean, depending on the scan result. It is also possible to connect plugins to perform additional actions, for example, as soon as the file is tagged as malicious, the plugin moves the tagged file to a quarantine bucket.
 
 Digging a little deeper into the architecture details, the overall deployment is made up of two different stacks:
 
 - <b>Storage Stack</b>: This stack is responsible for accepting the notification for the Amazon S3 bucket, as well as sending newly uploaded files to the Scanner Stack for the security scan. After the scan is complete, an Amazon SNS topic is published and the file is tagged as “malicious” or “clean”—additional plugins are available to add more functionality to the stack.
 
-- <b>Scanner Stack</b>: This stack is responsible for executing the scan and publishing the results to the Amazon SNS ScanResultTopic. When the Scanner Stack receives the request from the Storage Stack, its processes it and uses an AWS Lambda function to execute the scan. Like many Trend Micro technologies, File Storage Security can leverage Trend Micro™ Smart Protection Network™ for the latest threat information.
+- <b>Scanner Stack</b>: This stack is responsible for executing the scan and publishing the results to the Amazon SNS ScanResultTopic. When the Scanner Stack receives the request from the Storage Stack, it processes it and uses an AWS Lambda function to execute the scan. Like many Trend Micro technologies, File Storage Security can leverage Trend Micro™ Smart Protection Network™ for the latest threat information.
 
 ![Diagram](/images/fss_architecture.png)
 
@@ -58,6 +58,6 @@ In order to launch both stacks, you must leverage the following CloudFormation T
 
 The file hash is sent to Trend Micro Global Smart Scan Server when a file scan occurs and enables File Storage Security to identify malicious file hashes.
 
-In the smart scan solution, clients send file hashes determined by Trend Micro technology to Smart Scan Servers. **Cloud One - File Storage Security never sends the entire file** and the risk of the file is determined using the file hashes.
+In the smart scan solution, clients send file hashes determined by Trend Micro technology to Smart Scan Servers. **File Storage Security never sends the entire file** and the risk of the file is determined using the file hashes.
 
-[Trend Micro Cloud One™ - File Storage Security Data Collection Notice](https://success.trendmicro.com/solution/000258113)
+[File Storage Security Data Collection Notice](https://success.trendmicro.com/solution/000258113)

@@ -4,18 +4,20 @@ chapter: true
 weight: 1
 ---
 
-# Accelerating Secure Data Transfer with IBM Aspera and Trend Micro Cloud One.
+# Accelerating Secure Data Transfer with IBM Aspera and Trend™ Cloud One.
 
 ![Trend Micro](/images/TM_logo.png)
 
 ### Welcome
 
-Welcome to the **Accelerating Secure Data Transfer with IBM Aspera and Trend Micro Cloud One** hands-on workshop.
+Welcome to our hands-on workshop, **Accelerating Secure Data Transfer with IBM Aspera and Trend™ Cloud One** hands-on workshop.
 
-In this workshop users will integrate AWS S3 with IBM Aspera and Cloud One FIle Storage Security to secure your data migration journey. Participants will get hands-on experience in deploying, configuring, and transferring data using IBM Aspera.
+In this workshop users will integrate AWS S3 with IBM Aspera and Trend Cloud™ – File Storage Security to secure your data migration journey. Participants will get hands-on experience in deploying, configuring, and rapidly transferring data using IBM Aspera on Cloud.
 
+Understand how to transfer data at lightening speeds using IBM Aspera.
+Learn by implementing File Security for data migration to facilitate antimalware scanning of S3 objects.
 
-Learn by implementing Trend Micro - Cloud One File Security for data migration to facilitate Anti-Malware scanning of S3 objects.
+In this workshop, you will learn how to scan your objects that are being uploaded to Amazon S3 buckets for malware and integrate into your custom workflows, by automating with your current resources, directly in your AWS environment.
 
 --------
 
@@ -24,11 +26,11 @@ Learn by implementing Trend Micro - Cloud One File Security for data migration t
 The workshop is divided into the sections listed below. Plan around two hours to complete the full workshop.
 
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 1. Introduction - (10 minutes)</b> 
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 1. Introduction (10 minutes)</b> 
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 2. Cloud One and Aspera Account Setup (15 minutes)</b>  
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 3. Deploy Cloud One File Storage Security (30 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 3. Deploy File Storage Security (30 minutes)</b>
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 4. Transfer and Validate (15 minutes)</b>
 

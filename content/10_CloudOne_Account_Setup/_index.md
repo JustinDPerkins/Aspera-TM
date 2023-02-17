@@ -18,7 +18,7 @@ pre: "<b>2. </b>"
 
 ---
 
-#### Register on Cloud One portal for 30 days free trial
+#### Register on Cloud One portal for a 30-day free trial
 
 
 
@@ -27,7 +27,7 @@ pre: "<b>2. </b>"
 
 ![C1C](/images/freetrial1.PNG)
 
-**2.** Fill-up the form details and click Sign Up.
+**2.** Complete the form details and click Sign Up.
 
 ![C1C](/images/freetrial2.PNG)
 
@@ -39,11 +39,11 @@ pre: "<b>2. </b>"
 
 ![C1C](/images/c1c_3.png)
 
-**5.** Now you will need to sign in to complete the verification process. 
+**5.** Sign in to complete the verification process. 
 
 ![C1C](/images/c1c_4.png)
 
-**6.** You will need to create an Account Alias, in our case I'm using <code>Modernization_Workshop</code>,  after choose which region you would like to hosted your data from Cloud One, then click Continue.
+**6.** You will need to create an Account Alias, in our case I'm using <code>Modernization_Workshop</code>. Next, choose the region you would like to hosted your data from and click **Continue**.
 
 ![C1C](/images/c1c_5.png)
 

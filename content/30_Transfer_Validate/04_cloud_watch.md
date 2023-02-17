@@ -28,7 +28,7 @@ fss-scanned: "true"
 ```
 The tags indicate that File Storage Security scanned the file and tagged it correctly as malware. You have now tested your File Storage Security deployment :+1:
 
-You could also check in the Cloud One - File Storage Security dashboard to look for how many files have been scanned and recognized as malicious. 
+You could also check in the File Storage Security dashboard to see how many files have been scanned and flagged as malicious. 
 
 ![Diagram](/images/s3_4.png)
 
@@ -152,4 +152,4 @@ If you were expecting results and don't see them, try setting a broader time or 
 
 ----
 
-Now that your know how to verify Cloud One - File Storage Security logs and events in AWS CloudWatch you can create your own automations based on CloudWatch data :rocket:
+Now that you know how to verify File Storage Security logs and events in AWS CloudWatch you can create your own automations based on CloudWatch data :rocket:

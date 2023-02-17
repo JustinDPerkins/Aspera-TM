@@ -9,7 +9,7 @@ pre: "<b>6. </b>"
 
 1. To clean your environment, go to your CloudFormation stack called ```All-in-one-TM-FileStorageSecurity``` and click in delete, this will automatically delete the Scanner and Storage stack all together:
 
-2. After the CloudFormation finish the deletion process (Usually takes up to 5 minutes), you can go back to your Cloud One File Storage Security console and select your stack and also delete the stack:
+2. After the CloudFormation has finish the deletion process (usually takes up to 5 minutes), you can go back to the File Storage Security console and select your stack and also delete the stack.
 
 3. Delete all objects out of both s3 buckets.
 

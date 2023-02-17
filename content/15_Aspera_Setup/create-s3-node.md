@@ -160,7 +160,7 @@ This template creates two S3 buckets. A source S3 bucket to configure with Asper
 
 {{% notice warning %}}
 <p style='text-align: left;'>
-If the connection fails, refresh the webpage. Repeat the steps above and updating the IAM trust policy in AWS created before with the latest provided.
+If the connection fails, refresh the webpage. Repeat the steps above and update the IAM trust policy in AWS created before with the latest provided.
 </p>
 {{% /notice %}}
 
@@ -171,6 +171,6 @@ If the connection fails, refresh the webpage. Repeat the steps above and updatin
 
 ---
 
-Let's start the Cloud One - File Storage Security deployment now. :laptop::cloud::rocket:
 </details>
+
 ----

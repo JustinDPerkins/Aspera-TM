@@ -43,7 +43,7 @@ In this case, let's use the Serverless Application Repository
 
 ----
 
-**5.** After couple minutes you can click on the tab Deployments and expand the deployment to see if the status shows as complete. Then you can move to the next step to test it.
+**2.** After a couple minutes you can click on the tab Deployments and expand the deployment to see if the status shows as complete. Then you can move to the next step to test it.
 
 ![Diagram](/images/scan_action_4.png)
 

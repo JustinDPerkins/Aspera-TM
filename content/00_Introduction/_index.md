@@ -14,7 +14,7 @@ Today, businesses across industries are facing challenges moving large files and
 
 ### AWS S3.
 
-[Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements. 
+In March 2006, [Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) was launched and created as the first generally available AWS service, and since then, cloud data storage and usage has exploded, changing the world. . Amazon S3 has virtually unlimited scalability, and unmatched availability, durability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, and big data analytics. Amazon S3 provides easy-to-use management features so you can organize your data and configure finely-tuned access controls to meet your specific business, organizational, and compliance requirements.
 
 ---
 
@@ -40,6 +40,6 @@ In this workshop, you will migrate data to AWS securely, using:
 
 {{% notice warning %}}
 <p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various Trend Micro - Cloud One, AWS services, and IBM Aspera can be used together to build a secure solution while demonstrating best practices along the way.
+The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various Trend Cloud One, AWS services, and IBM Aspera can be used together to build a secure solution while demonstrating best practices along the way.
 </p>
 {{% /notice %}}

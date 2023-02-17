@@ -1,12 +1,12 @@
 ---
-title: "Trend Micro Cloud One"
+title: "Trend™ Cloud One"
 chapter: false
 weight: 6
 pre: "<b>1.2 </b>"
 ---
 
-### What is Trend Micro Cloud One?
-Trend Micro Cloud One, a security services platform for organizations building in the cloud, delivers the broadest and deepest cloud security offering in one solution, enabling you to secure your cloud infrastructure with clarity and simplicity. By considering your cloud projects and objectives holistically, Trend Micro Cloud One is able to provide powerful security, while you leverage all of the benefits and efficiencies the cloud offers your business. Comprised of multiple services designed to meet specific cloud security needs, Trend Micro Cloud One gives you the flexibility to solve your challenges today, and the innovation to evolve with your cloud services in the future.
+### What is Trend™ Cloud One?
+Trend Cloud One, a security services platform for organizations building in the cloud, delivers the broadest and deepest cloud security offering in one solution, enabling you to secure your cloud infrastructure with clarity and simplicity. By considering your cloud projects and objectives holistically, Trend Cloud One provides powerful security, allowing you to leverage all of the benefits and efficiencies the cloud offers your business. Comprising multiple services designed to meet specific cloud security needs, Trend Cloud One gives you the flexibility to solve your challenges today, and the innovation to evolve with your cloud services in the future.
 
 ![Diagram](/images/cloudone.png)
 
@@ -24,7 +24,7 @@ Trend Micro Cloud One, a security services platform for organizations building i
 
 ### How Does Cloud One Help?
 
-No matter where you are at in your cloud journey, Trend Micro Cloud One has you covered. From virtualization and cloud migration, to DevOps, container, and serverless security—get an automated, flexible, and all-in-one solution for your cloud security priorities. By not having to re-architect, by integrating with your existing tools and processes, and by focusing on automation, Trend Micro Cloud One will save you valuable time and resources while enhancing your security posture. 
+No matter where you are in your cloud journey, Trend Cloud One has you covered. From virtualization and cloud migration, to DevOps, container, and serverless security—get an automated, flexible, and all-in-one solution for your cloud security priorities. By not having to re-architect, by integrating with your existing tools and processes, and by focusing on automation, Trend Cloud One will save you valuable time and resources while enhancing your security posture. 
 
 We recognize that there are different drivers behind your constantly evolving cloud security priorities. We also understand all of the continuous work it takes to secure your complex and fast-paced multi-cloud environment—so let’s simplify it.
 
@@ -38,4 +38,4 @@ We recognize that there are different drivers behind your constantly evolving cl
 
 ### Learn More
 
-To learn more about our hybrid cloud security capabilities or to take a full test drive, visit <a href="https://www.trendmicro.com/cloudone">Trend Micro Cloud One page</a>
+To learn more about our hybrid cloud security capabilities or to take a full test drive, visit <a href="https://www.trendmicro.com/cloudone">Trend Cloud One page</a>
