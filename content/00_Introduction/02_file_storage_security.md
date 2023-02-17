@@ -33,7 +33,7 @@ multi-bucket promotional model (scanning bucket to quarantine/clean bucket)
 or an efficient single-bucket architecture. 
 
 
-![Diagram](/images/fss.png)
+![Diagram](/images/fss/fss.png)
 
 
 File Storage Security’s architecture was built to be simple to understand and monitor all of the buckets. As soon as a new file is uploaded to the bucket, this will generate a SQS message inside your AWS account that will trigger an AWS Lambda function. The function will execute the scan and tag the file as malicious or clean, depending on the scan result. It is also possible to connect plugins to perform additional actions, for example, as soon as the file is tagged as malicious, the plugin moves the tagged file to a quarantine bucket.
@@ -44,7 +44,7 @@ Digging a little deeper into the architecture details, the overall deployment is
 
 - <b>Scanner Stack</b>: This stack is responsible for executing the scan and publishing the results to the Amazon SNS ScanResultTopic. When the Scanner Stack receives the request from the Storage Stack, it processes it and uses an AWS Lambda function to execute the scan. Like many Trend Micro technologies, File Storage Security can leverage Trend Micro™ Smart Protection Network™ for the latest threat information.
 
-![Diagram](/images/fss_architecture.png)
+![Diagram](/images/fss/fss_architecture.png)
 
 {{% notice info %}}
 <p style='text-align: left;'>

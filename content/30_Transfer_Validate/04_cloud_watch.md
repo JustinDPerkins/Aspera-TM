@@ -18,7 +18,7 @@ pre: "<b>5.2 </b>"
 - Scroll to the <b>Tags</b> section, you will see the details like the example below:
 
 
-![Diagram](/images/tags_updated.png)
+![Diagram](/images/fss/tags_updated.png)
 
 Look for the following tags:
 ``` bash
@@ -30,7 +30,7 @@ The tags indicate that File Storage Security scanned the file and tagged it corr
 
 You could also check in the File Storage Security dashboard to see how many files have been scanned and flagged as malicious. 
 
-![Diagram](/images/s3_4.png)
+![Diagram](/images/fss/s3_4.png)
 
 ---
 
@@ -44,7 +44,7 @@ File Storage Security logs are in AWS CloudWatch Logs. These logs contain a bit 
 
 **1.** To view the scan result logs in AWS CloudWatch Logs, go to your AWS account, in CloudFormation > select your scanner stack > Resources > ScannerLogGroup link. 
 
-![Diagram](/images/fss-monitoring-cloudwatch.png)
+![Diagram](/images/fss/fss-monitoring-cloudwatch.png)
 
 ---
 
@@ -52,7 +52,7 @@ File Storage Security logs are in AWS CloudWatch Logs. These logs contain a bit 
 Under Log streams, click on a log stream with a latest event time that is later than or equal to the time when you added the file to the Amazon S3 bucket to scan and expand the event message that starts with scanner result.
 
 
-![Diagram](/images/cloudwatch.png)
+![Diagram](/images/fss/cloudwatch.png)
 
 ---
 
@@ -67,7 +67,7 @@ Now you will see the security events based in the File Storage Security Scanner,
 * <b>file_url</b>: The URL to the scanned file in Amazon S3.
 * <b>scanner_status and scanner_status_message</b>
 
-![Diagram](/images/fss-cloudwatchevent.png)
+![Diagram](/images/fss/fss-cloudwatchevent.png)
 
 The **scanner_status** has the following values:
 
@@ -93,7 +93,7 @@ scanning_result: Indicates scan details such as the scanned file's size as well 
 - In the main pane, click inside the **Select log group(s)** field, and enter <code>ScannerLambda</code>
 - Select the Log Group that only contains "ScannerLambda" together like the example below
 
-![Diagram](/images/scanner_lambda.png)
+![Diagram](/images/fss/scanner_lambda.png)
 
 ---
 
@@ -115,7 +115,7 @@ If you were expecting results and don't see them, try setting a broader time or 
 
 **3.** You should be able to see the events that you generated:
 
-![Diagram](/images/cw.png)
+![Diagram](/images/fss/cw.png)
 
 ---
 

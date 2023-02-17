@@ -17,28 +17,28 @@ pre: "<b>4. </b>"
 ### Cloud One - File Storage Security Deployment
 
 **1.** Login to [Cloud One platform](https://cloudone.trendmicro.com). If you don’t have your login information, check the requirements page that has all the details that you will need to create your account.
-![Diagram](/images/login.png)
+![Diagram](/images/fss/login.png)
 
 ---
 
 **2.** Select the File Storage Security tile
-![Diagram](/images/login_2.png)
+![Diagram](/images/fss/login_2.png)
 
 ---
 
 **3.** Click on Stack management in your left side
-![Diagram](/images/login_3.png)
+![Diagram](/images/fss/login_3.png)
 
 ---
 
 **4.** Click on "Deploy" 
-![Diagram](/images/login_4.png)
+![Diagram](/images/fss/login_4.png)
 
 ---
 
 **5.** Select ```Scanner Stack and Storage Stack```, to deploy the full solution to your AWS account.
 
-![Diagram](/images/fss-deploy-stacks-select.png)
+![Diagram](/images/fss/fss-deploy-stacks-select.png)
 
 ---
 
@@ -54,7 +54,7 @@ You can validate the Cloud Formation Template by clicking in ```Review Stack```,
 {{% button href="https://github1s.com/trendmicro/cloudone-filestorage-cloudformation-templates/blob/master/aws/FSS-Scanner-Stack.template" %}}Scanner Stack{{% /button %}}
 {{% button href="https://github1s.com/trendmicro/cloudone-filestorage-cloudformation-templates/blob/master/aws/FSS-Storage-Stack.template" %}}Storage Stack{{% /button %}}
 
-![Diagram](/images/login_5.png)
+![Diagram](/images/fss/login_5.png)
 
 ---
 
@@ -64,7 +64,7 @@ It also supports different parameters to customize your installation, like Resou
 
 After adding the bucket name you will need to acknowledge and click on <b>"Create Stack"</b>
 
-![Diagram](/images/cfdeploy.png)
+![Diagram](/images/fss/cfdeploy.png)
 
 ---
 
@@ -72,15 +72,15 @@ After adding the bucket name you will need to acknowledge and click on <b>"Creat
 
 Go to CloudFormation > Stacks > your all-in-one stack > Outputs tab and copy the Value with these Key names here ```ScannerStackManagementRoleARN``` and ```StorageStackManagementRoleARN``` and paste the information into Cloud One - File Storage Security console.
 
-![Diagram](/images/fss-arn-aws-info.png)
+![Diagram](/images/fss/fss-arn-aws-info.png)
 
-![Diagram](/images/login_6.png)
+![Diagram](/images/fss/login_6.png)
 
 ---
 
 **9.** Then Click <b>Submit</b>. You see a couple of success messages at the bottom and the stack will show in the Stack Management too. 
 
-![Diagram](/images/login_7.png)
+![Diagram](/images/fss/login_7.png)
 
 You have now completed the deployment of the All-in-One stack :tada:, so let's test our deployment :laptop:
 

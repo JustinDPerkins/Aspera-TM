@@ -1,5 +1,5 @@
 ---
-title: "IBM Aspera"
+title: "IBM Aspera on Cloud™"
 chapter: true
 weight: 20
 pre: "<b>3. </b>"
@@ -66,7 +66,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 
 ---
 
-**2.** Verify email for Aspera on Cloud.
+**2.** Verify email for IBM Aspera on Cloud™.
 
 - Check the inbox of the email address provided in step 1.
 - Copy the confirmation code.
@@ -75,7 +75,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 
 ---
 
-**3.** Start free Aspera on Cloud trial.
+**3.** Start free IBM Aspera on Cloud™ trial.
 - Provide the confirmation code back in the Aspera browser.
 - Click on **Start your free trial**.
 
@@ -95,7 +95,7 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 ![Aspera](/images/aspera/mfa.jpg)
 ![Aspera](/images/aspera/mfa2.jpg)
 
-**2.** In an application such as Duo Mobile configure MFA with IBM Aspera.
+**2.** In an application such as Duo Mobile configure MFA with IBM Aspera on Cloud™.
 
 - Test and Verify your authenticator has been set up.
 - Click **Done**.
@@ -109,13 +109,13 @@ A Key Pair is required before continuing this CloudFormation deployment. If you 
 
 ---
 
-**1.** Launch Aspera on Cloud.
+**1.** Launch IBM Aspera on Cloud™.
 
 - Click **Launch** to be directed to IBM Aspera on Cloud.
 
 ![Aspera](/images/aspera/account.jpg)
 
-**2.** Authenticate to IBM Aspera on Cloud.
+**2.** Authenticate to IBM Aspera on Cloud™.
 
 - Click on **Log in with IBMid**.
 

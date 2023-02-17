@@ -37,15 +37,15 @@ In this case, let's use the Serverless Application Repository
 3. Check the `I acknowledge that this app creates custom IAM roles.` checkbox.
 4. Click `Deploy`.
 
-![Diagram](/images/scan_action_1.png)
+![Diagram](/images/fss/scan_action_1.png)
 
-![Diagram](/images/scan_action_3.png)
+![Diagram](/images/fss/scan_action_3.png)
 
 ----
 
 **2.** After a couple minutes you can click on the tab Deployments and expand the deployment to see if the status shows as complete. Then you can move to the next step to test it.
 
-![Diagram](/images/scan_action_4.png)
+![Diagram](/images/fss/scan_action_4.png)
 
 
 ---

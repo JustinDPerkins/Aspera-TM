@@ -31,7 +31,7 @@ While the cloud service provider (CSP) is responsible for the infrastructure, yo
 
 In this workshop, you will migrate data to AWS securely, using:
 - AWS S3 to provide durable storage as well as some features like server-side encryption, versioning, IAM techniques. 
-- IBM® Aspera® to provide high-speed data transfers to migrate large amounts of data to S3.
+- IBM Aspera on Cloud™ to provide high-speed data transfers to migrate large amounts of data to S3.
 - Trend Micro Cloud One™ File Storage Security to validate object for malware and maintain data sovereignty.
 
 

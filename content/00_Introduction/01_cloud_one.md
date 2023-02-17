@@ -8,7 +8,7 @@ pre: "<b>1.2 </b>"
 ### What is Trend™ Cloud One?
 Trend Cloud One, a security services platform for organizations building in the cloud, delivers the broadest and deepest cloud security offering in one solution, enabling you to secure your cloud infrastructure with clarity and simplicity. By considering your cloud projects and objectives holistically, Trend Cloud One provides powerful security, allowing you to leverage all of the benefits and efficiencies the cloud offers your business. Comprising multiple services designed to meet specific cloud security needs, Trend Cloud One gives you the flexibility to solve your challenges today, and the innovation to evolve with your cloud services in the future.
 
-![Diagram](/images/cloudone.png)
+![Diagram](/images/tm/cloudone.png)
 
 ----
 
