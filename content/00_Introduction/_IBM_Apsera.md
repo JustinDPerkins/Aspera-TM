@@ -17,7 +17,7 @@ FASP file transfers scale linearly, and provide a predictable transfer speed bas
 
 IBM Aspera on Cloud overcomes the data transfer challenges of the hybrid cloud by allowing companies to securely and reliably move big data across on-premises and multi-cloud environments at unrivaled speed. This hybrid service from IBM Aspera is the fastest way to transfer, exchange, and deliver data from any location to anywhere with anyone.
 
-This service is contains two distince layers:
+This service contains two distinct layers:
 * <b>A web application</b> (hosted in IBM Cloud) that supports file transfer workflows thorugh a simple and clean end user experience.
 * <b>A file transfer layer</b> that is truly hybrid; hosted in any plublic cloud, offered as a service, or self-managed by you (the client).
 
