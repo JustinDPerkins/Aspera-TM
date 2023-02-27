@@ -43,17 +43,16 @@ Resources:
               cd "C:\Users\Administrator\Desktop\data";
               
               Invoke-Command -ScriptBlock {
-                for ($i=1; $i -le 10; $i++) {
-                  $rand = [System.Guid]::NewGuid().ToString().Substring(0,10)
-                  $webClient.DownloadFile("https://secure.eicar.org/eicar.com", "C:\Users\Administrator\Desktop\data\$rand.com")
+                for ($i=1; $i -le 3; $i++) {
+                  $rand = [System.Guid]::NewGuid().ToString().Substring(0,3)
+                  $webClient.DownloadFile("https://secure.eicar.org/eicar.com", "C:\Users\Administrator\Desktop\data\$rand.mov")
                 }
               }
               
               Invoke-Command -ScriptBlock {
-                for ($i = 1; $i -le 200; $i++) {
-                  $key = [string]::Format("{0:00000}.jpg", $i)
-                  aws s3 cp "s3://aft-vbi-pds/bin-images/$key" "C:\Users\Administrator\Desktop\data\$key"
-                }
+                  aws s3 cp s3://immersionday-workshops-trendmicro/aspera/media/mov1.mp4 "C:\Users\Administrator\Desktop\data\mov1.mp4"
+                  aws s3 cp s3://immersionday-workshops-trendmicro/aspera/media/mov2.mp4 "C:\Users\Administrator\Desktop\data\mov2.mp4"
+                  aws s3 cp s3://immersionday-workshops-trendmicro/aspera/media/mov3.mov "C:\Users\Administrator\Desktop\data\mov3.mov"
               }
             </powershell> 
       SecurityGroups:

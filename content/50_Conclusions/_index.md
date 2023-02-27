@@ -1,7 +1,7 @@
 ---
 title: "Conclusions"
 chapter: true
-weight: 70
+weight: 60
 pre: "<b>7. </b>"
 ---
 

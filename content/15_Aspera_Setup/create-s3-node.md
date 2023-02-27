@@ -2,7 +2,7 @@
 title: "Create Node for S3"
 chapter: true
 weight: 21
-pre: "<b>3.2 </b>"
+pre: "<b>4.2 </b>"
 ---
 
 

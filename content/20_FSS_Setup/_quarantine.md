@@ -2,7 +2,7 @@
 title: "Quarantine Malicious Files"
 chapter: false
 weight: 31
-pre: "<b>4.2 </b>"
+pre: "<b>5.2 </b>"
 ---
 
 ### Enhance Security workflow with Quarantine functionality.

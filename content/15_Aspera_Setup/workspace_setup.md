@@ -2,7 +2,7 @@
 title: "Configure Client Workspace"
 chapter: true
 weight: 22
-pre: "<b>3.3 </b>"
+pre: "<b>4.3 </b>"
 ---
 
 # Configure Aspera Workspace

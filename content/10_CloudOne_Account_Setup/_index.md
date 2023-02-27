@@ -2,7 +2,7 @@
 title: "Cloud One Account"
 chapter: true
 weight: 10
-pre: "<b>2. </b>"
+pre: "<b>3. </b>"
 ---
 
 # Cloud One Account Creation

@@ -2,7 +2,7 @@
 title: "Transfer and Validate"
 chapter: true
 weight: 50
-pre: "<b>5. </b>"
+pre: "<b>6. </b>"
 ---
 
 # Transfer Files using Aspera
